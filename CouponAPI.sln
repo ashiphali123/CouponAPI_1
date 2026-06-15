@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{DE5A789E-B79E-4B6A-8ADC-D9B066C6B9A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateway", "Gateway", "{AFCA7334-568B-450B-AF60-B2AB562C1D52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{3A99E238-D1D6-43DF-8D6F-1B3DE4C25798}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{C770FAE1-E58E-47B9-8C15-96798D00106F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CouponServiceAPI", "CouponServiceAPI\CouponServiceAPI.csproj", "{28009118-D701-4CEB-9E93-01828FE186E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CouponMVC", "CouponMVC\CouponMVC.csproj", "{80363A54-D3D0-4393-9E21-5F0771C4A5A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CouponAuthAPI", "CouponAuthAPI\CouponAuthAPI.csproj", "{A2630820-CF8D-4880-908A-EC35239AA30C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28009118-D701-4CEB-9E93-01828FE186E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28009118-D701-4CEB-9E93-01828FE186E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28009118-D701-4CEB-9E93-01828FE186E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28009118-D701-4CEB-9E93-01828FE186E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80363A54-D3D0-4393-9E21-5F0771C4A5A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80363A54-D3D0-4393-9E21-5F0771C4A5A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80363A54-D3D0-4393-9E21-5F0771C4A5A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80363A54-D3D0-4393-9E21-5F0771C4A5A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2630820-CF8D-4880-908A-EC35239AA30C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2630820-CF8D-4880-908A-EC35239AA30C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2630820-CF8D-4880-908A-EC35239AA30C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2630820-CF8D-4880-908A-EC35239AA30C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{28009118-D701-4CEB-9E93-01828FE186E7} = {C770FAE1-E58E-47B9-8C15-96798D00106F}
+		{80363A54-D3D0-4393-9E21-5F0771C4A5A4} = {DE5A789E-B79E-4B6A-8ADC-D9B066C6B9A2}
+		{A2630820-CF8D-4880-908A-EC35239AA30C} = {C770FAE1-E58E-47B9-8C15-96798D00106F}
+	EndGlobalSection
+EndGlobal
