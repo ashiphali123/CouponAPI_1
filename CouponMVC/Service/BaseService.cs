@@ -21,7 +21,7 @@ namespace CouponMVC.Service.IService
                 HttpClient client = _httpClientFactory.CreateClient("CouponServiceAPI");
                 HttpRequestMessage message = new();
                 message.Headers.Add("Accept", "application/json");
-                // For Token
+                // For Token dd
 
                 message.RequestUri = new Uri(requestDto.Url);
                 if (requestDto.Data != null)
